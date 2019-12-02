@@ -59,7 +59,7 @@ namespace AICourseCSharpL6
             mDictionary.Add(8, "用户图像白名单");
             mDictionary.Add(9, "图文审核");
             mDictionary.Add(11, "百度官方违禁词库");
-            mDictionary.Add(12, ("文本反作弊");
+            mDictionary.Add(12,"文本反作弊");
 
         }
 
