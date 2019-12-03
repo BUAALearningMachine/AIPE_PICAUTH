@@ -16,7 +16,7 @@
                 <RowDefinition Height="40*"/>
                 <RowDefinition Height="380*"/>
             </Grid.RowDefinitions>
-            <Button x:Name="button_file" Content="载入图像" HorizontalAlignment="Left" Margin="258,10,0,0" VerticalAlignment="Top" Width="110" Height="25" />
+            <Button x:Name="button_file" Content="载入图像" HorizontalAlignment="Left" Margin="258,10,0,0" VerticalAlignment="Top" Width="110" Height="25" Click="button_file_Click" />
             <Border BorderBrush="Gray" BorderThickness="0.5" Grid.Row="1" Margin="0,0.2,-0.4,-0.2">
                 <Image x:Name="image" Margin="0" Grid.Row="1"/>
             </Border>
@@ -29,7 +29,7 @@
             <TextBox x:Name="textBox_Auth" Margin="0" Grid.Row="1" TextWrapping="Wrap" Text=""/>
         </Grid>
         <TextBlock x:Name="textBlock_Auth" Grid.Column="1" HorizontalAlignment="Left" Margin="27.4,21,0,0" TextWrapping="Wrap" Text="图像审核结果：" VerticalAlignment="Top" Height="23" Width="161" FontSize="16"/>
-        <Button x:Name="button_Auth" Content="图像审核" Grid.Column="1" HorizontalAlignment="Left" Margin="263.4,19,0,0" VerticalAlignment="Top" Width="110" Height="25"/>
+        <Button x:Name="button_Auth" Content="图像审核" Grid.Column="1" HorizontalAlignment="Left" Margin="263.4,19,0,0" VerticalAlignment="Top" Width="110" Height="25" Click="button_Auth_Click"/>
 
     </Grid>
 </Window>
