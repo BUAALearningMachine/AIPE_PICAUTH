@@ -36,7 +36,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="AipSdk">
-      <HintPath>..\..\third\aip-csharp-sdk-3.4.0\net45\AipSdk.dll</HintPath>
+      <HintPath>..\third\AipSdk.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
